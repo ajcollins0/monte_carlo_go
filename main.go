@@ -31,8 +31,7 @@ func main() {
 	rand.Seed(time.Now().UTC().UnixNano())
 	var sets []float64
 	for j := 0; j < numTests; j++ {
-		a := perform_single_test()
-		sets = append(sets, a)
+		sets = append(sets, perform_single_test())
 	}
 	printResults(sets)
 }
