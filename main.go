@@ -8,7 +8,7 @@ import (
 )
 
 var numTrades int = 500
-var numTests int = 10
+var numTests int = 1000
 var startingCapital int = 10000
 var percentCorrect float64 = 0.85
 var targetProfit float64 = 0.01
